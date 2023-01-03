@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(182, 182, 182);
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    padding: 15px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0px;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: pink; */
+    height: 59vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.infoContainer .devpic img{
+    height: 59vh;
+    /* margin: 2.5vh 0; */
+}
+/* .infoContainer .devpic{
+    margin: auto;
+} */
+.infoContainer .devinfo {
+    font-family: 'Secular One', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.infoContainer .devinfo .hello{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3.5rem;
+}
+.infoContainer .devinfo .name{
+    font-size: 3.5rem;
+}
+.infoContainer .devinfo .about{
+    font-size: 2rem;
+}
+.infoContainer .devinfo .moreabout{
+    font-size: 1rem;
+}
+.infoContainer .devinfo .buttons{
+    margin: 1rem 0rem;
+}
+.infoContainer .devinfo .buttons button{
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    background-color: rgb(0, 128, 255);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.infoContainer .devinfo .buttons button:hover{
+    color: rgb(0, 125, 249);
+    background-color: white;
+}
+.profession{
+    color: darkgoldenrod;
+}
